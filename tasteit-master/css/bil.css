@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;  /* Sets a clean and modern font */
+    margin: 20px;           /* Adds some space around the content */
+  }
+  
+  h1 {
+    text-align: center;     /* Centers the title */
+    font-size: 2em;          /* Makes the title slightly larger */
+    margin-bottom: 20px;    /* Adds some space below the title */
+  }
+  
+  form {
+    display: flex;          /* Arranges form elements in a row */
+    flex-direction: column;  /* Stacks form elements vertically */
+    width: 50%;             /* Limits form width to half the page */
+    margin: 0 auto;        /* Centers the form horizontally */
+  }
+  
+  form label {
+    margin-bottom: 5px;     /* Adds some space below labels */
+  }
+  
+  textarea {
+    resize: vertical;       /* Allows users to resize the text area */
+    padding: 5px;            /* Adds some padding for better readability */
+  }
+  
+  table {
+    border-collapse: collapse; /* Ensures borders don't overlap */
+    width: 100%;             /* Makes the table fill the available space */
+    margin-top: 20px;        /* Adds some space above the table */
+  }
+  
+  th, td {
+    border: 1px solid #ddd;  /* Adds a thin border to cells */
+    padding: 8px;            /* Adds padding for better readability */
+    text-align: left;        /* Aligns text to the left */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Light gray background for table headers */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray background for even rows */
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green color for the submit button */
+    color: white;             /* White text color for the button */
+    padding: 10px 20px;       /* Adds padding for the button */
+    border: none;            /* Removes default button border */
+    border-radius: 4px;       /* Adds rounded corners to the button */
+    cursor: pointer;          /* Changes cursor style to indicate clickability */
+  }
+  
+  button[type="submit"]:hover { /* Style changes on hover */
+    background-color: #45A049; /* Darker green on hover */
+  }
+  
